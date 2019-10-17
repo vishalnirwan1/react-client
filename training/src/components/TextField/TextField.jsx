@@ -2,6 +2,7 @@ import React from "react";
 import validField, { errorField } from "./style";
 
 function TextField(props) {
+  // console.log('>>>>>>>>', props);
   if (props.value) {
     return (
       <span>
